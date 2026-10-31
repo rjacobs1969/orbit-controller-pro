@@ -1,0 +1,68 @@
+Orbit Controller Pro - ergonomic outer-shell concept
+
+STATUS: concept / ergonomic study, NOT a production-ready enclosure.
+All CAD dimensions are millimeters, scale 1:1.
+
+This is an original housing design using the supplied SpaceMouse Pro and
+Enterprise photos as ergonomic references. It is not a dimensional copy of
+either commercial product. Original Hackman3D files were used only to compare
+envelopes: PalmRest approximately 128 x 207 x 30.5; base 53 x 83 x 24.
+The old housing, electronics mount and original joystick interface are not reused.
+
+Confirmed arrangement, from the rear toward the user's palm:
+1. Landscape 2.79-inch NV3007 display.
+2. Two rows of four Kailh Choc switches.
+3. JH16 stick with a proposed rounded grip.
+4. Broad, gently declining palm support.
+
+FORM AND LAYOUT
+Approximate shell envelope: 138.5 wide x 220 long x 51.8 high.
+Grip top approximately 53 high. The display eyebrow and control shoulders
+blend into a narrow waist and a low, flared palm-support nose.
+Shell center height transitions from approximately 46 near the rear through
+28 at the stick and 20/15 across the palm area to 6 at the front edge.
+Longitudinal sides and cross-sections use smooth B-spline loft surfaces.
+
+Layerling X is left/right and internal Z is the long axis:
+rear is negative Z, user's palm/front is positive Z.
+STEP uses Z-up, with its Y direction opposite Layerling's internal Z.
+Display center: X 0, internal Z -78; screen tilted 20 degrees toward the user.
+The actual previously modeled display STEP is included as a reference:
+25.90 x 78.00 x 6.00 with the already-documented estimated layer heights.
+Display active-area opening: 65.40 x 22.50, with a raised rounded bezel.
+
+Switch centers: X -28.50, -9.50, +9.50, +28.50; rows at internal Z -45 and -25.
+Column pitch 19; row pitch 20. Actual earlier Choc model geometry is reused.
+Proposed keycaps: 17.50 x 16.50 x 3.00, with rounded edges.
+Nominal square shell openings 14.20 x 14.20 are concept locations, not a
+validated snap-in plate. Switch deck datum heights are 37.00 and 32.40.
+The closest neutral grip-to-keycap plan-view gap is approximately 6.50.
+Finger reach, travel, shaft tilt and keycap interference need physical testing.
+
+Stick center: X 0, internal Z +12.
+JH16 housing and shaft are simplified dimensional references, not a mount.
+Housing underside height 14; nominal shaft top 32.95.
+Proposed grip: 44 diameter at its lower envelope, 36 at its upper envelope,
+24 high, rounded edges and a nominal 4.20 diameter, 6 deep socket.
+Its attachment, shaft flats, strength and full joystick tilt clearance are
+not engineered. The shell's 10 diameter shaft opening is provisional.
+
+FILES
+Orbit-Ergonomic-Concept.lyl: editable Layerling layout with separate shell,
+lower plate, display, eight switches/keycaps and stick/grip references.
+Orbit-Ergonomic-Shell.step/.stl/.3mf: shell and lower plate ONLY.
+Orbit-Ergonomic-Layout.step/.3mf: complete concept including component references.
+Preview PNGs show the layout; they are not additional physical parts.
+
+CONSTRUCTION LIMITS
+Hollow upper concept skin with nominal 3.20 coordinate inset. This is not an
+exact constant-normal-thickness shell; local lofted wall thickness varies.
+Lower concept plate is 2.40 high, with a 0.30 nominal separation from the upper.
+End closure, split-line behavior and fit are not manufacturing specifications.
+No fasteners, screw bosses, display supports, joystick bracket, button PCB,
+electronics carrier, USB opening, cable routing, ballast or rubber feet are
+engineered. The lower plate is not retained by anything yet.
+Component reference colors and knob/keycap shapes are illustrative.
+The concept exports do not establish printability, comfort or hand-size fit.
+Make a low-cost ergonomic mockup and measure actual components before
+developing the enclosure's detailed mounting and fastening design.
