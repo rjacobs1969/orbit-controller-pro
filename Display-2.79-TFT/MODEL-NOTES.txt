@@ -1,0 +1,32 @@
+2.79-inch NV3007 TFT SPI display module - mechanical reference
+
+All CAD dimensions are millimeters, scale 1:1.
+Nominal complete envelope: 25.90 x 78.00 x 6.00.
+Active area: 21.28 x 64.14; resolution 142 x 428 RGB.
+Backlight outline: 24.38 x 69.43.
+TFT/CF outline: 23.08 x 67.89.
+
+The complete 6.00 mm thickness is a product specification. No side-view
+dimensions were provided. Individual heights are estimates from the supplied
+front perspective photograph and rear product photograph, not measurements:
+
+Rear connector allowance        1.20
+PCB thickness                   1.00
+Front backlight housing          2.70
+TFT substrate                   0.90
+Front surface/mask               0.20
+Total                           6.00
+
+The lowest rear connector surface is elevation 0.00. PCB underside is 1.20,
+PCB top is 2.20, and the screen top is 6.00.
+
+Header holes: eight at 2.54 pitch, 17.78 first-to-last span, row 1.65 from
+the header end. Mounting centers: 20.00 apart, 1.91 from the opposite end.
+Mounting hole diameter 2.50, header hole diameter 1.00, solder pad sizes,
+corner radii, connector/ribbon geometry and rear components are estimates.
+Do not use these estimates as a production PCB footprint or fit guarantee.
+
+The model has a blank powered-off screen and no populated external header.
+Hidden internals, circuit routing and operating functionality are omitted.
+The editable LYL contains the source images and more detailed model notes.
+Verify a physical sample before final enclosure clearances or PCB manufacture.
