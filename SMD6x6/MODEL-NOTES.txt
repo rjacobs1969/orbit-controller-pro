@@ -1,0 +1,22 @@
+SMD / SMT 6x6 four-terminal normally-open tactile switch height family.
+Primary source: smd6x6_dimensions.png. All dimensions millimeters, scale 1:1.
+Same 43 nominal heights as THT6x6: 4.1, 4.3, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0.
+H (L in SMT drawing) is overall released height above seating / solder-foot underside datum.
+There are no through-hole leads: model overall height equals the selected H.
+Housing 6.00 x 6.00; drawing body top 3.60 above seating datum; lid thickness 0.30.
+The generic explanatory pictures state a 3.50 base; the specific SMT drawing's 3.60
+dimension takes precedence here. All nominal overall heights still exactly match filenames.
+Actuator base diameter 3.40 / tip diameter 3.30; a slight linear taper is representative.
+Four blade widths 0.70; row center pitch 4.50.
+Solder feet outer span 9.20 +/-0.30; inner-edge span 6.70 +/-0.30.
+Each foot extends from absolute X 3.35 to 4.60; width along Z 0.70; thickness 0.30.
+Four gull-wing terminals have coplanar solder undersides at elevation 0.
+Travel 0.25 is stated in the drawing; this is a static released model, not a working switch.
+The nearby 0.50 MAX detail is not a global maximum actuator extension for tall variants.
+Only actuator length changes between variants; housing, lid and terminals stay fixed.
+Housing/lid split, corner radii, rivet geometry/material, aperture clearance, actuator taper
+and exact gull-wing bend positions are mechanical-reference estimates from the illustration.
+No PCB pad recommendation is supplied here; do not treat terminal geometry as a certified footprint.
+Internal contacts and spring omitted. Verify physical samples before PCB or enclosure manufacture.
+Preview.png shows representative 4.1, 13 and 29 mm heights; each model file is one individual part.
+Layerling X/Z is board plane; elevation is height. STEP is Z-up.
