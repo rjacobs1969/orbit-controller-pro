@@ -1,0 +1,27 @@
+ESP32-S3-N16R8 development board: photo-specific mechanical reference.
+All dimensions millimeters, scale 1:1. No exact manufacturer/schematic identified.
+Not Espressif DevKitC-1; do not substitute another board's header numbering or LED pin.
+Orientation: component-side up, antenna at -Z, USB-C at +Z; L is -X, R is +X.
+Reference IDs L01..L20 and R01..R20 run antenna-to-USB; these are local IDs, not vendor pin numbers.
+Drawing PCB width 20.50, PCB length 51.60; USB-inclusive length 52.82.
+Header pitch 2.54; 20 pins per row; first-to-last span 19 x 2.54 = 48.26.
+Row center spacing is explicitly 17.78 in the drawing, corroborated by photo; 7 x 2.54.
+Header centers X +/-8.89, Z -24.13 + 2.54*i (i=0..19); end margins 1.67.
+PCB edge-to-row center margin 1.36; estimated drills diameter 1.00 and pads diameter 1.90.
+PCB underside datum elevation 0; estimated board thickness 1.20.
+Estimated USB shell height 3.20 above PCB top; board maximum elevation 4.40.
+USB front projects 1.22 beyond PCB; estimated shell width 9.00, length 7.60.
+MCU 7x7 footprint representative; crystal, flash, RF parts, buttons and passives are approximate.
+Corner castellations/scallops, tracks, solder, fine leads, precise RF/USB contact details and
+unpopulated package landing pattern are omitted. No manufacturing or certified PCB footprint claim.
+Bare model matches the photographed unfitted pads; With-Headers is an additional requested configuration.
+Two optional downward-facing 1x20 male headers: pitch 2.54, plastic 2.54 high, length 50.80,
+square pins 0.64, tail 6.00 below plastic, solder tip 0.20 above PCB top (all heights estimated).
+Header plastic underside -2.54; pin tip -8.54; with-header envelope 20.50 x 52.82 x 12.94.
+Bare envelope 20.50 x 52.82 x 4.40. Add physical mating/cable/antenna clearances separately.
+Important pin conflict: R14 is marked 37 on front/back photos and 47 on the pin-definition diagram.
+Routing is UNVERIFIED. If actually GPIO37 with octal PSRAM, do not use it as a spare I/O.
+Supply chart calls RGB LED GPIO48; exact electrical circuitry and current limits not established.
+N16R8 implies 16 MB flash and 8 MB PSRAM in product nomenclature; verify actual memory in firmware.
+Consult ESP32-S3-N16R8-Reference.pdf for full 40-position pin definitions, sources and cautions.
+Layerling X/Z is the board plane; STEP is Z-up. Heights require a physical sample check.
