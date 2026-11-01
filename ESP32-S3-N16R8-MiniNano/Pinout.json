@@ -1,0 +1,313 @@
+{
+  "orientation": "Component-side; antenna -Z, USB +Z; columns A,B,C,D left-to-right",
+  "pins": [
+    {
+      "id": "A01",
+      "label": "GPIO0",
+      "x": -10.16,
+      "z": -10.46,
+      "memoryCaution": false
+    },
+    {
+      "id": "A02",
+      "label": "GPIO7",
+      "x": -10.16,
+      "z": -7.920000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "A03",
+      "label": "GPIO9",
+      "x": -10.16,
+      "z": -5.380000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "A04",
+      "label": "GPIO11",
+      "x": -10.16,
+      "z": -2.8400000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "A05",
+      "label": "GPIO13",
+      "x": -10.16,
+      "z": -0.3000000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "A06",
+      "label": "GPIO15",
+      "x": -10.16,
+      "z": 2.2399999999999984,
+      "memoryCaution": false
+    },
+    {
+      "id": "A07",
+      "label": "GPIO17",
+      "x": -10.16,
+      "z": 4.779999999999999,
+      "memoryCaution": false
+    },
+    {
+      "id": "A08",
+      "label": "GPIO21",
+      "x": -10.16,
+      "z": 7.32,
+      "memoryCaution": false
+    },
+    {
+      "id": "A09",
+      "label": "3V3",
+      "x": -10.16,
+      "z": 9.86,
+      "memoryCaution": false
+    },
+    {
+      "id": "A10",
+      "label": "GND",
+      "x": -10.16,
+      "z": 12.399999999999999,
+      "memoryCaution": false
+    },
+    {
+      "id": "A11",
+      "label": "VIN",
+      "x": -10.16,
+      "z": 14.939999999999998,
+      "memoryCaution": false
+    },
+    {
+      "id": "B01",
+      "label": "EN",
+      "x": -7.62,
+      "z": -10.46,
+      "memoryCaution": false
+    },
+    {
+      "id": "B02",
+      "label": "GPIO8",
+      "x": -7.62,
+      "z": -7.920000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "B03",
+      "label": "GPIO10",
+      "x": -7.62,
+      "z": -5.380000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "B04",
+      "label": "GPIO12",
+      "x": -7.62,
+      "z": -2.8400000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "B05",
+      "label": "GPIO14",
+      "x": -7.62,
+      "z": -0.3000000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "B06",
+      "label": "GPIO16",
+      "x": -7.62,
+      "z": 2.2399999999999984,
+      "memoryCaution": false
+    },
+    {
+      "id": "B07",
+      "label": "GPIO18",
+      "x": -7.62,
+      "z": 4.779999999999999,
+      "memoryCaution": false
+    },
+    {
+      "id": "B08",
+      "label": "GPIO26",
+      "x": -7.62,
+      "z": 7.32,
+      "memoryCaution": true
+    },
+    {
+      "id": "B09",
+      "label": "3V3",
+      "x": -7.62,
+      "z": 9.86,
+      "memoryCaution": false
+    },
+    {
+      "id": "B10",
+      "label": "GND",
+      "x": -7.62,
+      "z": 12.399999999999999,
+      "memoryCaution": false
+    },
+    {
+      "id": "B11",
+      "label": "VIN",
+      "x": -7.62,
+      "z": 14.939999999999998,
+      "memoryCaution": false
+    },
+    {
+      "id": "C01",
+      "label": "GPIO1",
+      "x": 7.62,
+      "z": -10.46,
+      "memoryCaution": false
+    },
+    {
+      "id": "C02",
+      "label": "GPIO4",
+      "x": 7.62,
+      "z": -7.920000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "C03",
+      "label": "GPIO6",
+      "x": 7.62,
+      "z": -5.380000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "C04",
+      "label": "TX / GPIO43",
+      "x": 7.62,
+      "z": -2.8400000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "C05",
+      "label": "RX / GPIO44",
+      "x": 7.62,
+      "z": -0.3000000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "C06",
+      "label": "GPIO46",
+      "x": 7.62,
+      "z": 2.2399999999999984,
+      "memoryCaution": false
+    },
+    {
+      "id": "C07",
+      "label": "GPIO39",
+      "x": 7.62,
+      "z": 4.779999999999999,
+      "memoryCaution": false
+    },
+    {
+      "id": "C08",
+      "label": "GPIO36",
+      "x": 7.62,
+      "z": 7.32,
+      "memoryCaution": true
+    },
+    {
+      "id": "C09",
+      "label": "GPIO35",
+      "x": 7.62,
+      "z": 9.86,
+      "memoryCaution": true
+    },
+    {
+      "id": "C10",
+      "label": "GPIO33",
+      "x": 7.62,
+      "z": 12.399999999999999,
+      "memoryCaution": true
+    },
+    {
+      "id": "C11",
+      "label": "GPIO48",
+      "x": 7.62,
+      "z": 14.939999999999998,
+      "memoryCaution": false
+    },
+    {
+      "id": "D01",
+      "label": "GPIO3",
+      "x": 10.16,
+      "z": -10.46,
+      "memoryCaution": false
+    },
+    {
+      "id": "D02",
+      "label": "GPIO2",
+      "x": 10.16,
+      "z": -7.920000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "D03",
+      "label": "GPIO5",
+      "x": 10.16,
+      "z": -5.380000000000001,
+      "memoryCaution": false
+    },
+    {
+      "id": "D04",
+      "label": "GPIO45",
+      "x": 10.16,
+      "z": -2.8400000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "D05",
+      "label": "GPIO42",
+      "x": 10.16,
+      "z": -0.3000000000000007,
+      "memoryCaution": false
+    },
+    {
+      "id": "D06",
+      "label": "GPIO41",
+      "x": 10.16,
+      "z": 2.2399999999999984,
+      "memoryCaution": false
+    },
+    {
+      "id": "D07",
+      "label": "GPIO40",
+      "x": 10.16,
+      "z": 4.779999999999999,
+      "memoryCaution": false
+    },
+    {
+      "id": "D08",
+      "label": "GPIO38",
+      "x": 10.16,
+      "z": 7.32,
+      "memoryCaution": false
+    },
+    {
+      "id": "D09",
+      "label": "GPIO37",
+      "x": 10.16,
+      "z": 9.86,
+      "memoryCaution": true
+    },
+    {
+      "id": "D10",
+      "label": "GPIO34",
+      "x": 10.16,
+      "z": 12.399999999999999,
+      "memoryCaution": true
+    },
+    {
+      "id": "D11",
+      "label": "GPIO47",
+      "x": 10.16,
+      "z": 14.939999999999998,
+      "memoryCaution": false
+    }
+  ]
+}

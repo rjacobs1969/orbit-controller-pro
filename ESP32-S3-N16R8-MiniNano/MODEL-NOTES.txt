@@ -1,0 +1,33 @@
+ESP32-S3-N16R8-MiniNano, NiceMCU-branded photo-specific board reference.
+All dimensions millimeters, scale 1:1. Exact manufacturer schematic and revision not identified.
+Not Arduino Nano, Waveshare Nano or ESP32-S3 SuperMini; their dimensions/pinouts are not substituted.
+PCB dimensioned 22.40 wide x 31.96 long. Thickness 1.20 estimated.
+Orientation component-side up: antenna at -Z, USB at +Z; X increases left-to-right.
+Four columns of 11 positions: A outer-left, B inner-left, C inner-right, D outer-right.
+Reference IDs A01..D11 are local model IDs, not MCU package numbers or Arduino D aliases.
+Nominal pitch 2.54 inferred from drawing grid; 10 intervals span 25.40.
+Adjacent row spacing 2.54. Inferred inner-row gap 15.24, outer-row gap 20.32.
+Row centers X -10.16, -7.62, +7.62, +10.16. Drawing measurements support a nominal 2.54 grid,
+but are not independently dimensioned; approximate scaled image gaps are 15.4 and 20.4.
+Allow roughly 0.15 uncertainty for these inferred row measurements; verify physical board before PCB design.
+Pin centers Z -10.46 + 2.54*i for i=0..10, inferred end margins antenna 5.52 / USB 1.04.
+Drill diameter 1.00 and pad diameter 1.80 estimated. End square pads represented as round.
+USB shell width 9.00, length 7.50, height 3.20 above PCB top are estimates.
+USB overhang 1.50 estimated from photo; bare envelope 22.40 x 33.46 x 4.40.
+Package heights, component positions, antenna/connector envelopes, passives and buttons estimated.
+Bare model matches photographs; additional downward-header model has four 1x11 strips.
+Headers: plastic width/height 2.54, length 27.94, square pins 0.64, tail 6.00 below plastic,
+top stub 0.20 above PCB; header pin tip -8.54, body underside -2.54.
+Outer header plastic protrudes 0.23 per side and 0.23 at USB PCB end.
+With-header envelope therefore 22.86 x 33.46 x 12.94 (all header heights estimated).
+N16R8 naming implies 16 MB flash, 8 MB PSRAM; verify actual parts and memory initialization.
+GPIO26 and GPIO33..37 are exposed in chart but overlap flash/PSRAM buses, particularly octal PSRAM.
+Do not use these as spare I/O on an N16R8/R8 configuration without confirmed schematic and memory routing.
+TX/RX are interpreted as default UART0 GPIO43/44; the back photo labels IO43 TX / IO44 RX.
+An RGB-like LED and both ceramic and external RF connectors are visible; LED GPIO and RF selection
+network are unverified. Do not assume the larger white board's GPIO48 LED wiring or antenna switching.
+VIN voltage range, regulator output current, USB backfeed protection and power paths are unverified.
+Tracks, solder, QFN leads, antenna matching, silkscreen and exact USB/RF contacts omitted.
+Pinout.json and the reference PDF describe all 44 positions and limitations.
+Add plug/cable, antenna, sockets and mechanical clearance separately; this is not certified production CAD.
+STEP is Z-up; STEP Y is opposite Layerling Z. Physical fit verification required.

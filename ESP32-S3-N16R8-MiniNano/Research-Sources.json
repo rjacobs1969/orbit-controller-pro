@@ -1,0 +1,42 @@
+{
+  "accessed": "2026-11-01",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Espressif ESP32-S3 Series Datasheet, v2.2",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf",
+      "scope": "Chip variants, GPIO functions, boot straps, supply recommendations and package reference."
+    },
+    {
+      "id": "S2",
+      "title": "Espressif ESP32-S3-WROOM-1 / WROOM-1U Datasheet, v1.8",
+      "url": "https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "scope": "N16R8 memory nomenclature only; this model is not claimed to contain that shielded module."
+    },
+    {
+      "id": "S3",
+      "title": "ESP-IDF ESP32-S3 GPIO and RTC GPIO reference",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html",
+      "scope": "ADC pin map, GPIO matrix, memory-reserved pins, USB19/20 and strapping summary."
+    },
+    {
+      "id": "S4",
+      "title": "Espressif ESP32-S3 product overview",
+      "url": "https://www.espressif.com/en/products/socs/esp32-s3",
+      "scope": "CPU, SRAM, Wi-Fi, Bluetooth LE and supported interfaces."
+    },
+    {
+      "id": "S5",
+      "title": "Espressif ESP-USB USB Device Stack for ESP32-S3",
+      "url": "https://docs.espressif.com/projects/esp-usb/en/latest/esp32s3/usb_device.html",
+      "scope": "USB D-/D+ routing, full-speed operation, TinyUSB classes and shared PHY limitation."
+    },
+    {
+      "id": "S6",
+      "title": "ESP-IDF ESP32-S3 ADC Oneshot Mode Driver",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/adc_oneshot.html",
+      "scope": "ADC2/Wi-Fi sharing and driver protection; calibration and error handling."
+    }
+  ],
+  "boardSpecificSchematicIdentified": false
+}
