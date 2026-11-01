@@ -1,0 +1,16 @@
+THT 6x6 four-terminal normally-open tactile switch height family.
+Source: THT6x6_dimensions.png. All dimensions millimeters, scale 1:1.
+All 43 listed nominal heights H: 4.1, 4.3, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0.
+H is from housing underside / PCB seating datum to released actuator tip, excluding pins.
+Housing 6.00 x 6.00; body height 3.50; actuator diameter 3.50 maximum, modeled at 3.50.
+Pins extend 3.50 below the housing underside; total model height is H + 3.50.
+PCB terminal centers 6.50 x 4.50; recommended four PCB holes diameter 1.00.
+Four terminal blade widths 0.70; formed leads have 7.70 maximum outer span.
+Blade thickness 0.30, body/lid split 3.20/0.30, rivets, corner radii, aperture
+clearance and exact lead bend positions are estimated from the illustration.
+Only actuator length changes between variants; static released condition.
+Drawing default tolerance +/-0.05; nominal reference models do not encode tolerances.
+Internal contacts/spring and switching travel are not modeled or electrically certified.
+One Preview.png shows representative short, medium and tall variants; files are individual parts.
+Verify physical samples before PCB manufacture or enclosure mounting.
+Layerling X/Z is board plane; elevation is height. STEP is Z-up.
