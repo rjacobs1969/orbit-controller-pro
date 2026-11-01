@@ -1,0 +1,21 @@
+EC1101SFT-D1 rotary encoder with push switch; drawing variant explicitly selected.
+All dimensions millimeters, scale 1:1. Source: rotaryEncoder_dimensions.png.
+Technical drawing body 12.00 x 12.00; side-ear overall width 15.00, ear width 2.50.
+Shaft diameter 6.00; D-flat across dimension 4.50, flat length F=4.00.
+L=10.00 modeled from cover top to released shaft tip; bushing diameter 7.00, height 5.00.
+Housing thickness is not dimensioned in that drawing: estimated 4.70 from the supplied photo.
+This does not substitute the photo's 12.70 body width for the drawing's 12.00.
+Consequently housing top 4.70, bushing top 9.70, shaft tip 14.70 above housing underside.
+Push travel marked 0.50. Static released model, no functional rotation or switching.
+Encoder terminal centers X -2.50/0/+2.50; switch terminals X +/-3.25 on opposite edge.
+Locating pegs at X -2.50 and +2.00; diameter 1.00, underside protrusion 0.80.
+Contact span along Z approximately 18.00 from PCB layout; leads are illustrative SMD bends.
+Body peg orientation follows bottom-view drawing, not a certified top-view PCB land pattern.
+Terminal sections, bends, exact contact endpoints, housing thickness, shell folds and corners
+are approximate. Diameter and 0.50 shaft-tip chamfer indicated in drawing; tip chamfer omitted.
+Envelope 15.00 x 18.00 x 15.50 including side ears and estimated rear pegs.
+No knob, spring/contact assembly, threading or electrical footprint guarantee included.
+
+Undimensioned details are mechanical-reference estimates, not manufacturing tolerances.
+Verify a physical sample before enclosure mounting or PCB manufacture.
+Layerling X/Z is the board plane, elevation is height; STEP is Z-up.

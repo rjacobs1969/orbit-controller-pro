@@ -1,0 +1,14 @@
+Standard Kailh-style microSwitch, three-terminal COM / NO / NC, released.
+Source priority: microSwitch_dimensions.png. The blue product montage shows another variant.
+All dimensions millimeters, scale 1:1; housing underside elevation 0.
+Housing 12.80 x 5.80 x 6.50; free plunger top 7.35 (FP); operating position 6.90 (OP).
+Actuator width along X 1.20, across Z 2.90; center X -1.95 inferred from 5.20 datum.
+Horizontal mounting bores diameter 1.40 left / 1.00 right, X -3.25/+3.25, height 1.50.
+Three terminal centers X -5.08/0/+5.08; width 0.90, thickness 0.40; protrusion 3.20.
+PCB holes diameter 1.10 recommended. Model envelope 12.80 x 5.80 x 10.55 including leads.
+Clear cover thickness division, contacts, clips, corner radii and pin tips are approximate.
+No live contact mechanism or electrical footprint certification; mounting bores are through depth.
+
+Undimensioned details are mechanical-reference estimates, not manufacturing tolerances.
+Verify a physical sample before enclosure mounting or PCB manufacture.
+Layerling X/Z is the board plane, elevation is height; STEP is Z-up.

@@ -1,0 +1,16 @@
+Low-profile Kailh mini SMD micro switch, two terminals, released.
+All dimensions millimeters, scale 1:1. Source: lowProfileMiniMicroSwitch_dimensions.png.
+Housing 8.60 +/-0.15 x 4.80 +/-0.15 x 3.00; body underside elevation 0.
+Free position FP 3.50 +/-0.20; operating OP 3.20 +/-0.20; total-travel position PT 3.00 +/-0.20.
+Green plunger 1.00 along X, 1.70 along Z; center 3.16 from left body edge, X -1.14.
+Two locating pegs diameter 0.95 +/-0.05, X +/-2.00, 4.00 pitch, 0.40 protrusion.
+Terminal overall span 11.20 +/-0.20; end lands represented with A width 1.40 and B 2.25.
+Terminal land thickness 0.25 and vertical bends are estimates; photo shows a formed SMD contact.
+Recommended locating holes diameter 1.10; land layout dimensions stay in the attached drawing.
+Envelope 11.20 x 4.80 x 3.90 including locating pegs.
+Lid thickness, cover retaining straps, corner radii and terminal transitions are approximate.
+No working contacts, spring mechanism or validated solder footprint modeled.
+
+Undimensioned details are mechanical-reference estimates, not manufacturing tolerances.
+Verify a physical sample before enclosure mounting or PCB manufacture.
+Layerling X/Z is the board plane, elevation is height; STEP is Z-up.
